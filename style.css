@@ -224,10 +224,5 @@ body {
     -webkit-box-direction: normal;
     flex-direction: column;
     -webkit-box-pack: center;
-    justify-content: center;
-}
-
-.name{
-    font-size: 4rem;
-    line-height: 4rem;
+    just
 }

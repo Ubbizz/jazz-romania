@@ -216,3 +216,18 @@ body {
     padding-bottom: 2rem !important;
 }
 
+.row-schedule-big{
+    height: 12rem;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.name{
+    font-size: 4rem;
+    line-height: 4rem;
+}

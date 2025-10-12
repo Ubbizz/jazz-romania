@@ -199,3 +199,20 @@ body {
 .no{
     font-size: 3rem;
 }
+
+.row-schedule{
+    border-top: 1px solid #000000;
+}
+
+.right{
+    text-align: right;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.pb-2040{
+    padding-bottom: 2rem !important;
+}
+

@@ -277,9 +277,11 @@ img{
     padding: 4rem 0 10rem 0;
 }
 
-/* .week{
-    
-} */
+.week{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    line-height: 6rem;
+}
 
 .expand{
     position: relative;
@@ -304,5 +306,41 @@ img{
 
 .hour{
     min-width: 10rem;
+}
+
+.box1{
+    display: grid;
+    box-sizing: border-box;
+    height: 40vh;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.fm-band{
+    background-color: #ffcc00;
+    overflow: hidden;
+}
+
+.scrollingtextleft{
+    animation: scrolling-text-left;
+}
+
+.scrolling-text-left{
+    animation-duration: 100s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-name: scrolling-text-left;
+}
+
+@keyframes scrolling-text-left {
+    
+    from {
+        transform: 0px;
+    }
+
+    to {
+        transform: 100000px;
+    }
+    
 }
 
